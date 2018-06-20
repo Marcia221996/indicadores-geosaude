@@ -1,0 +1,7 @@
+<RCC>
+    <qresource prefix="/plugins/indicadores_geosaude" >
+        <file>icon.png</file>
+		<file>plusicon.png</file>
+		<file>plugin_icon.png</file>
+    </qresource>
+</RCC>

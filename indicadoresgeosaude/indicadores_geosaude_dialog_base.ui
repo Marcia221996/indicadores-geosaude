@@ -1,0 +1,468 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>IndicadoresGeosaudeDialogBase</class>
+ <widget class="QDialog" name="IndicadoresGeosaudeDialogBase">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>378</width>
+    <height>199</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Indicadores Geosaude</string>
+  </property>
+  <widget class="QDialogButtonBox" name="button_box">
+   <property name="geometry">
+    <rect>
+     <x>20</x>
+     <y>160</y>
+     <width>341</width>
+     <height>32</height>
+    </rect>
+   </property>
+   <property name="orientation">
+    <enum>Qt::Horizontal</enum>
+   </property>
+   <property name="standardButtons">
+    <set>QDialogButtonBox::Cancel|QDialogButtonBox::Ok</set>
+   </property>
+  </widget>
+  <widget class="QComboBox" name="comboBox">
+   <property name="geometry">
+    <rect>
+     <x>180</x>
+     <y>30</y>
+     <width>71</width>
+     <height>21</height>
+    </rect>
+   </property>
+   <property name="mouseTracking">
+    <bool>false</bool>
+   </property>
+   <item>
+    <property name="text">
+     <string>2017</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>2016</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>2015</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>2014</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>2013</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>2012</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>2011</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>2010</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>2009</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>2008</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>2007</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>2006</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>2005</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>2004</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>2003</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>2002</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>2001</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>2000</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>1999</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>1998</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>1997</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>1996</string>
+    </property>
+   </item>
+  </widget>
+  <widget class="QLabel" name="label">
+   <property name="geometry">
+    <rect>
+     <x>90</x>
+     <y>30</y>
+     <width>81</width>
+     <height>21</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>Seleciona o ano</string>
+   </property>
+  </widget>
+  <widget class="QComboBox" name="comboBox_2">
+   <property name="geometry">
+    <rect>
+     <x>180</x>
+     <y>90</y>
+     <width>71</width>
+     <height>21</height>
+    </rect>
+   </property>
+   <item>
+    <property name="text">
+     <string>Ambos</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>Indefinido</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>Homem</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>Mulher</string>
+    </property>
+   </item>
+  </widget>
+  <widget class="QLabel" name="label_2">
+   <property name="geometry">
+    <rect>
+     <x>90</x>
+     <y>90</y>
+     <width>81</width>
+     <height>20</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>Seleciona o sexo</string>
+   </property>
+  </widget>
+  <widget class="QComboBox" name="comboBox_3">
+   <property name="geometry">
+    <rect>
+     <x>180</x>
+     <y>120</y>
+     <width>131</width>
+     <height>21</height>
+    </rect>
+   </property>
+   <item>
+    <property name="text">
+     <string>ACES 2009</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>Continente</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>Distritos</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>Instituições de saúde</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>Municípios</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>Municípios (2016)</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>NUTS I (2013)</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>NUTS II (2013)</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>NUTS III (2013)</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>NUTS II 2002</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>NUTS III 2002</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>Regiões de saúde</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>União europeia</string>
+    </property>
+   </item>
+  </widget>
+  <widget class="QLabel" name="label_3">
+   <property name="geometry">
+    <rect>
+     <x>10</x>
+     <y>120</y>
+     <width>161</width>
+     <height>21</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>Seleciona a região administrativa</string>
+   </property>
+  </widget>
+  <widget class="QComboBox" name="comboBox_4">
+   <property name="geometry">
+    <rect>
+     <x>180</x>
+     <y>60</y>
+     <width>131</width>
+     <height>21</height>
+    </rect>
+   </property>
+   <item>
+    <property name="text">
+     <string>Ano</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>1º Mês</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>2º Mês</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>3º Mês</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>4º Mês</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>5º Mês</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>6º Mês</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>7º Mês</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>8º Mês</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>9º Mês</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>10º Mês</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>11º Mês</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>12º Mês</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>1º Quadrimestre</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>2º Quadrimestre</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>3º Quadrimestre</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>1º Semestre</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>2º Semestre</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>1º Trimestre</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>2º Trimestre</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>3º Trimestre</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>4º Trimestre</string>
+    </property>
+   </item>
+  </widget>
+  <widget class="QLabel" name="label_4">
+   <property name="geometry">
+    <rect>
+     <x>20</x>
+     <y>60</y>
+     <width>151</width>
+     <height>16</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>Seleciona o intervalo de tempo</string>
+   </property>
+  </widget>
+ </widget>
+ <resources/>
+ <connections>
+  <connection>
+   <sender>button_box</sender>
+   <signal>accepted()</signal>
+   <receiver>IndicadoresGeosaudeDialogBase</receiver>
+   <slot>accept()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>20</x>
+     <y>20</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>20</x>
+     <y>20</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>button_box</sender>
+   <signal>rejected()</signal>
+   <receiver>IndicadoresGeosaudeDialogBase</receiver>
+   <slot>reject()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>20</x>
+     <y>20</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>20</x>
+     <y>20</y>
+    </hint>
+   </hints>
+  </connection>
+ </connections>
+</ui>
