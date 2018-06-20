@@ -1,4 +1,4 @@
-# indicadores-geosaude
+# Plugin QGIS para Descarregar Indicadores do GeoSaúde
 Este plugin permite adicionar, no QGIS, camadas vetoriais que correspondem a indicadores do website do GeoSaúde.
 
 ### Pré-requisitos
